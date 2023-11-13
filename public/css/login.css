@@ -22,7 +22,7 @@
 /* GENERALES */
 
 body {
-    background-color: var(--gris-claro);
+    background-color: #FFF;
 }
 
 * {
@@ -45,6 +45,7 @@ li {
 .main-header {
     background-color: var(--amarillo);
     padding: 25px 0 5px 0;
+   
 }
 
 
@@ -93,7 +94,7 @@ button.btn i {
 .main-header-boton-bar ul {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 0px;
 
 }
 
@@ -103,6 +104,13 @@ button.btn i {
     display: inline-block;
     padding: 5px 0;
     font-size: 10px;
+}
+.login{
+    margin: 80px;
+    background-color:#dedbdb;
+    padding: 50px;
+    width: 80%;
+   
 }
 
 @media (min-width: 768px) {
@@ -266,11 +274,22 @@ form.form div.formulario {
     height:40px;
     text-align: center ;
   color: #FFF;
-
 }
+
 .control_form_a a { 
 color: #FFF;
 
+}
+button:hover{
+    background-color:#39b54a ;
+    color:#0022AA ;
+}
+button{
+    background-color: #39b54a;
+    color: #0022AA;
+    transition: 
+    background-color,0.5s,
+    color,0.5s;
 }
 
 /* FOOTER */
@@ -295,7 +314,7 @@ footer span {
     font-size: var(--parrafos);
 }
 
-/* TABLET */
+/* mobil */
 @media (min-width: 361px){
     main.home__productos section.home__seccion-productos article.seccion__productos--targetas{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
@@ -363,7 +382,7 @@ footer span {
     }
 }
 
-/* DESKTOP */
+/* tablet */
 @media (min-width: 769px){
     main.home__productos section.home__seccion-productos div.contenedorArticulos article.seccion__productos--targetas {
         margin-right: 15px;
@@ -403,7 +422,7 @@ fieldset{
 
 
 
-
+/*main*/
 
 .main-header {
     background-color: var(--amarillo);
@@ -532,8 +551,11 @@ button.btn i {
 .main-header-boton-bar li {
     margin: 0 15px;
 }
+.lista-superior{
+    
+}
 
-
+/*desktop*/
 @media (min-width: 1200px) {
 .main-header-top-bar, .main-header-boton-bar {
     max-width: 1200px;
@@ -597,4 +619,5 @@ button.btn i {
 .main-header-top-bar{
     align-items: center;
 
+}
 }

@@ -22,7 +22,7 @@
 /* GENERALES */
 
 body {
-    background-color: var(--gris-claro);
+    background-color: #FFF;
 }
 
 * {
@@ -43,7 +43,7 @@ li {
 /*header*/
 .main-header {
     background-color: var(--amarillo);
-    padding: 20px;
+    padding: 25px 0 5px 0;
 }
 
 header.main-header div.main-header-top-bar div {
@@ -95,7 +95,7 @@ button.btn i {
     font-size: 18px;
     margin: auto;
 }
-
+/*main*/
 .main-header-boton-bar {
     display: none;
 }
@@ -113,6 +113,10 @@ button.btn i {
     display: inline-block;
     padding: 5px 0;
     font-size: 10px;
+}
+.formulario{
+    margin: 10px;
+    background-color:#ebebeb;
 }
 
 @media (min-width: 768px) {
@@ -426,4 +430,5 @@ fieldset{
     height: 10h;
     margin: 0 auto;
     gap: 1px;
+    background-color: #ebebeb;
 }
