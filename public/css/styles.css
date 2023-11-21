@@ -251,29 +251,32 @@ footer span {
 }
 /*desktop*/
 @media (min-width: 1024px){
-
+      .seccion__productos--tarjeta{
+            width: 25%;
+      }
+      .seccion__productos--tarjeta{
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+            transition: box-shadow 0,3 ease ;
+      }
+      
+      .seccion__productos--tarjeta:hover{
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      }
+      
+      i{
+            background-color: 0;
+            color:0 ;
+      } 
+      i:hover{
+            color: #39b54a;
+      }
+      .contenedor-precio{
+            opacity: 0;
+            transition: opacity 0,3s ease-in-out;
+      }
+      .contenedor-precio:hover{
+            opacity: 1;
+      }
+      
 }
 
-.seccion__productos--tarjeta{
-      box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
-      transition: box-shadow 0,3 ease ;
-}
-
-.seccion__productos--tarjeta:hover{
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-i{
-      background-color: 0;
-      color:0 ;
-} 
-i:hover{
-      color: #39b54a;
-}
-.contenedor-precio{
-      opacity: 0;
-      transition: opacity 0,3s ease-in-out;
-}
-.contenedor-precio:hover{
-      opacity: 1;
-}

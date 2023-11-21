@@ -1,7 +1,7 @@
 const express = require("express");
 const path = require("path");
 const app = express();
-const PORT = 3030;
+const PORT = 3000;
 
 app.use(express.static("public"));
 
@@ -17,6 +17,6 @@ app.get("/register", (req, res) => {
 })
 
 app.listen(PORT, () => console.log(`
-Server listen in port 3030
-http://localhost:3030
+Server listen in port 3000
+http://localhost:3000
 `))
